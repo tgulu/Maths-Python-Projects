@@ -96,11 +96,9 @@ def ex3() :
                         print(" " * (maxlength - len(str(i**a))),end="")
                         print(i**a,end="")
                     print("")
-                    
-                              
-
-
+                   
                 table= False
+                
           except(ValueError):
                      print("You Have Not Entered A Positive Integer, Please Enter Again")
                      continue 
